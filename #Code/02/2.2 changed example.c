@@ -4,8 +4,8 @@
 */
 
 #include <stdio.h>
-int main()
-{
+
+int main() {
     int c1, c2;
     c1 = 46;
     c2 = 47;

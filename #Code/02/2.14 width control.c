@@ -4,6 +4,7 @@
 */
 
 #include<stdio.h>
+
 int main() {
     int i, j;
     float x, y;

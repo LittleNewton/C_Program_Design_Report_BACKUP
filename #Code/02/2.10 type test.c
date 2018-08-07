@@ -13,4 +13,3 @@ int main() {
     printf("i = %ld, x = %ld, y= %ld\n", i, x, y);
     return 0;
 }
-
