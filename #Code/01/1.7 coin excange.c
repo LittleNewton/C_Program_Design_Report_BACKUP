@@ -5,8 +5,7 @@
 
 #include<stdio.h>
 
-int main()
-{
+int main() {
     int total;
     int k_1,k_2,k_3,k_4;
     printf("please input the total money:\n");

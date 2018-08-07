@@ -2,9 +2,10 @@
 * filename: 1.4 simple calculation.c
 * property: homework
 */
+
 #include<stdio.h>
-int main()
-{
+
+int main() {
     int x, y, z;
     printf("please input 3 numbers:\n");
     scanf("%d %d %d", &x, &y, &z);
