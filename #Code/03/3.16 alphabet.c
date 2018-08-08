@@ -12,7 +12,7 @@ int main() {
         if('A' <= ch && ch <= 'Z')
             ch = ch + 32;
         else
-	    ch = ch - 32;
+        ch = ch - 32;
     }
     else
         printf("Invalid input\n");

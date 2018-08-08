@@ -7,16 +7,16 @@
 
 int main() {
     float x, y;
-	printf("Please input 2 numbers and one operator: ");
+    printf("Please input 2 numbers and one operator: ");
     char ch;
-	scanf("%f %f %c", &x, &y, &ch);
-	
-	if(y == 0 && ch == '/') {
+    scanf("%f %f %c", &x, &y, &ch);
+    
+    if(y == 0 && ch == '/') {
         printf("Invalid input.\n");
-		return -1;
+        return -1;
     }
 
-	float ans;
+    float ans;
     switch(ch) {
         case '+': ans = x + y; break;
         case '-': ans = x - y; break;
