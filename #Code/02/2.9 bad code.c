@@ -3,7 +3,7 @@
 * property: example, this code could not run.
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
     int i, j, k;

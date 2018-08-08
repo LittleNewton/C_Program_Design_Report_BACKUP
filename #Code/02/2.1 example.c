@@ -5,8 +5,7 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
     char c1, c2;
     c1 = 46;
     c2 = 47;

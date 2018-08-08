@@ -3,7 +3,7 @@
 * property: homework
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
     float x = 8.5;
