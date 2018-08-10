@@ -130,7 +130,9 @@ void LineRatioSub(Ratio *start_1,Ratio *start_2,int len)
     int i;
     for(i=0;i<len;i++)
     {
-        *(start_1 + i) = RatioSub((start_1 + i),(start_2 + i));
+
+
+		*(start_1 + i) = RatioSub((start_1 + i),(start_2 + i));
     }
 }
 
@@ -233,4 +235,4 @@ int main()
         printf("\n");
     }
     return 0;
-}
+}
